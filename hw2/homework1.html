@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style>
+	tr{background-color:linen}
+	img{border-radius: 50%}
+	td{color:mediumpurple;font-size:10pt}
+	.black{color:black}
+	label{color:maroon}
+	i{color:blue;font-size:inherit}
+</style>
+</head>
+<body>
+<table border="2" style="width:20%">
+	<tr>
+		<th colspan="3"><i>About--110307006</i></th>
+	</tr>
+	<tr>
+		<td rowspan="3">
+			<img src="IMG_2720.jpg"height="100" width="100"><br><i style="font-size:15pt">personal photo
+		</i></br></td>
+		<td colspan="2">
+		<form>
+			<label class="black">Name:
+			<input name = "name" type = "text" size = "25"maxlength="30">
+		</label><p>
+			<label>Gender:</label>
+				<input type="radio" name="gender" value="male">Male
+				<input type="radio" name="gender" value="female">Female
+				<input type="radio" name="gender" value="other">Other
+			</p></td>
+	</tr>
+	<tr>
+		<td><label>County:</label>
+			<select name="counties">
+				<option value="Taipei">Taipei</option>
+				<option value="Tainan">Tainan</option>
+				<option value="Taichung">Taichung</option>
+				<option value="Taoyuan">Taoyuan</option>
+			</select></td>
+		<td><label>Birthday:
+				<input name = "date" type = "date" size = "25"maxlength="30">
+			</label></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<label class="black">E-mail:
+				<input name = "mail" type = "mail" size = "25"maxlength="30">
+			</label></td>
+	</tr>
+	<tr>
+		<td>Hobby</td>
+		<td colspan="2">
+				<input type="checkbox" name="hobby" value="swimming">Swimming
+				<input type="checkbox" name="hobby" value="volleyball">Volleyball
+				<input type="checkbox" name="hobby" value="movie">Movie
+				<input type="checkbox" name="hobby" value="game">Game
+				<input type="checkbox" name="hobby" value="sleep">Sleep
+</td>
+	</tr>
+	<tr>
+		<td>Skill</td>
+		<td colspan="2">
+			<input type="checkbox" name="skill" value="Java">Java
+			<input type="checkbox" name="skill" value="HTML">HTML
+			<input type="checkbox" name="skill" value="Python">Python
+			<input type="checkbox" name="skill" value="Microsoft Office">Microsoft Office
+			<input type="checkbox" name="skill" value="Premiere">Premiere
+</td>
+	</tr>
+	<tr>
+		<td>Say Something</td>
+		<td colspan="2">
+			<textarea cols="60" placeholder="Say something here."></textarea></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<input type="submit"value="提交">
+			<input type="reset"value="重設">
+		</form></td>
+	</tr>
+</body>
+</html>
