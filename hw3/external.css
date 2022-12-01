@@ -28,14 +28,19 @@ img,input[type="text"],textarea{
 textarea{resize:none;width:99.2%}
 img{width:99.7%}
 
-@media screen and (max-width:1000pt){
+@media print
+{
+  label{
+  font-family:cursive,seric;    
+  color:lightskyblue;
+}
+}
+
+@media screen and (max-width:1000pt)
+{
   body{
   background-color:lightskyblue;
   font-family:italic,seric;
 }
-
-@media print{
-  body{
-  background-color:black;
-  font-family:cursive,seric;
 }
+
