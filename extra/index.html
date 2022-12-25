@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<span id='result'></span>
+<script>
+	var data,char,index1,index2,index3;
+	data=window.prompt("Input Data");
+	char=window.prompt("Input a Char to Search");
+	index1=data.indexOf(char);
+	index2=data.lastIndexOf(char);
+	index3=data.indexOf(char,3);
+	document.getElementById('result').innerHTML=index1+'<p></p>'+index2+'<p></p>'+index3
+</script>
+</body>
+</html>
